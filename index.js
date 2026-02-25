@@ -2,6 +2,13 @@ function displayJoke(response) {
     console.log(response.data);
     let jokeElement = document.querySelector("#joke");
     jokeElement.innerHTML = response.data.answer;
+
+    new Typewriter("#joke", {
+        strings: response.data.answer,
+        autoStart: true,
+        cursor: null,
+        delay: 20
+    })
 }
 
 function generateJoke(event) {
