@@ -1,0 +1,30 @@
+body {
+    color: #272142;
+    font-family: Merriweather;
+    background: #F9F7FE;
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 1.5;
+    color: #272044;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    margin: 30px 0;
+    justify-content: space-between;
+}
+
+footer {
+    margin: 0;
+    opacity: 0.9;
+    line-height: 1.5;
+}
+
+.container {
+    margin: 60px auto;
+    max-width: 600px;
+}
